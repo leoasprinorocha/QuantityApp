@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="QuantityApp.MainPage">
+
+    <StackLayout VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Quantidade" FontSize="20" HorizontalTextAlignment="Center"/>
+        <Label  x:Name="LblQuantidade" Text="1" FontSize="48" TextColor="Red" HorizontalTextAlignment="Center"/>
+        <StackLayout>
+            <Button Clicked="Adicao" Text="+" FontSize="48" BorderWidth="1" TextColor="Blue" BorderColor="White" BackgroundColor="White" WidthRequest="100" HeightRequest="100" />
+            <Button  Clicked="Subtrair" Text="-" FontSize="48" BorderWidth="1" TextColor="Blue" BorderColor="White" BackgroundColor="White" WidthRequest="100" HeightRequest="100"/>
+        </StackLayout>
+        
+
+
+    </StackLayout>
+
+</ContentPage>
